@@ -1,9 +1,6 @@
-# task-manger
 --------------------
 Task Manager
 --------------------
-
-#Task Manager
 
 #Description
 This is simple UI task manager interface for smaal teams. It helps in project managament and assigning task among team members.
