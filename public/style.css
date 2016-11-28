@@ -1,0 +1,270 @@
+/**** Helper classes starts ****/
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+
+.center{text-align: center;}
+.pointer{cursor: pointer};
+.bl-red{background-color: #e53935; border-left: 4px solid #e53935;}
+.bl-blue{background-color: #0277bd; border-left: 4px solid #0277bd;}
+.bl-yellow{background-color: #fb8c00; border-left: 4px solid #fb8c00;}
+.bl-teal{background-color: #1de9b6; border-left: 4px solid #1de9b6;}
+.bl-green{background-color: #00bfa5; border-left: 4px solid #00bfa5;}
+/**** Helper classes ends ****/
+
+
+
+/**** Header Container Begins ****/
+.header-container{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	height: 20%;
+	display: table;
+}
+.header-container svg{
+	width: 35px;
+	heigh: 31px;
+	float: right;
+	cursor: pointer;
+}
+.header-title{
+	font-size: 32px;
+	font-weight: 300;
+	color: white;
+	display: table-cell;
+    vertical-align: middle;
+    padding: 0 25px;
+}
+/**** Header Container Ends ****/
+
+
+
+/**** Common Container starts ****/
+.clearfix .card{
+	height: 100%;
+	background-color: #f5f5f5;
+}
+
+.card-container{
+	margin: 1% 3%;
+	width: 27%;
+	float: left;
+}
+.align-center{
+	margin: 3% 0;
+	float: left;
+	width: 100%;
+}
+.add-container > p{
+    position:relative;
+}
+.add-container > svg{
+	fill: #bdbdbd;
+    width: 24px;
+    height: 24px;
+    position:relative;  
+    cursor: pointer;
+}
+/**** Container styles ends ****/
+
+/**** Dashboard container starts ****/
+.dashboard-container .card-content{
+	height: 200px;
+}
+.dashboard-container .card-content p{
+	height: 80px;
+	overflow: hidden;
+	margin: 5px 0px !important;
+}
+.dashboard-container .card-container .card-title{
+	line-height: 30px !important;
+	display: inline-block;
+	height: 48px;
+}
+.dashboard-container .add-container > p{
+	top: 60px;
+    left: 101px;
+}
+
+.dashboard-container .add-container > svg{
+	top: 61px;
+    left: 151px;
+}
+/**** Dashboard container ends ****/
+
+
+
+/**** Scrum container starts ****/
+.scrum-container{
+    width: 100%;
+    height: 69%;
+    margin: 2% 0;
+	overflow: scroll;	
+	float: left;
+}
+.scrum-board{
+	list-style: none;
+	display: flex;
+	flex-flow: row nowrap;
+  	justify-content: flex-start;
+}
+.scrum-container .card-container{
+	width: 335px;
+	height: 90px;
+	margin: 12px 12px;
+	flex-grow: 1;
+}
+.scrum-board .card-content{
+	padding: 10px 20px;
+}
+.scrum-board .status-bar{
+	display: inline-block;
+	height: 25px;
+	margin-bottom: 0px;
+	margin-left: 15px;
+	border-radius: 19px;
+}
+.scrum-board .status-bar input{
+	border-bottom: 0px;
+	width: 83px;
+	height: 13px;
+	padding: 5px 12px;
+	color: white;
+}
+.status-bar ul.dropdown-content{
+	width: 260px !important;
+}
+.status-bar ul.dropdown-content li > span{
+	color: #424242;
+	font-size: 14px;
+}
+.status-bar span.caret{
+	left: 87px;
+	top: 2px;
+	color: white;
+	font-size: 8px;
+}
+.scrum-container p{
+	margin-top: -10px !important;
+}
+.scrum-container .add-container .card-content{
+	height: 90px;
+	padding: 20px;
+}
+.scrum-container .add-container > p{
+	top: 18px;
+	left: 111px;
+}
+.scrum-container .add-container > svg{
+	top: 8px;
+    left: 136px;
+}
+.scrum-board .member-details{
+	font-size: 18px;
+	font-weight: 500;
+}
+.member-section{
+	min-width: 360px;
+	border-left: 1px dashed grey;
+	flex-grow: 1;
+}
+.scrum-board .center.card-content{
+	height: 90px;
+	padding: 25px;
+}
+.scrum-board .form-card .card-content{
+	background-color: #f5f5f5;
+	height: 87px;
+}
+.scrum-board .add-member input{
+	width: 210px;
+}
+.scrum-board .add-member a{
+	width: 40px;
+	height: 40px
+}
+.scrum-board .add-member i{
+	line-height: 44px;
+}
+/**** Scrum container ends ****/
+
+
+/**** Form container starts ****/
+.form-container .card-container{
+	position: relative;
+}
+.form-dailog .card-content{
+	height: 424px;
+}
+.form-dailog{
+	position: absolute;
+	width: 482px;
+	left: 282px;
+	top: -20px;
+	z-index: 3;
+}
+.form-dailog p{
+	padding: 20px 20px;
+}
+.form-dailog .card-content{
+	padding: 0px 0px;
+	height: 451px;
+}
+.form-dailog input{
+	border-radius: 3px;
+	height: 2.9rem;
+	padding-left: 9px;
+	margin-top: 10px;
+	width: 97%;
+	border: 1px solid #bdbdbd;
+}
+.form-dailog textarea{
+	border-radius: 3px;
+	height: 4.9rem;
+	padding-left: 9px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #bdbdbd;
+}
+.form-dailog .select-wrapper{
+	border-radius: 3px;
+	height: 2.9rem;
+	padding-left: 9px;
+	margin-top: 10px;
+	border: 1px solid #bdbdbd;
+}
+.form-dailog label{
+	font-size: 0.9rem;
+}
+.form-dailog .input-field label{
+	top: -0.5rem;
+}
+.form-dailog .btn{
+	padding: 0px 35px;
+	font-weight: 300;
+	text-transform: none;
+	border-radius: 34px;
+	margin: 0px 5px;
+	height: 39px;
+}
+.form-dailog .card-action{
+	padding-left: 219px;
+	padding-right: 5px;
+}
+.form-dailog .card-content .row{
+	margin-bottom: 0px;
+}
+.form-container .card-content.active{
+	border: 2px solid #1de9b6;
+	color: #1de9b6;
+}
+.form-container .add-container > svg.active{
+	fill: #1de9b6;
+}
+/**** Form container ends ****/
