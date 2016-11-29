@@ -1,4 +1,4 @@
-// ./src/car/car.component.jsx
+// ./src/taskboard/taskboard.component.jsx
 import React, { Component, PropTypes } from 'react';
 
 import TaskCard from './taskCard.js';

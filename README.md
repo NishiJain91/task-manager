@@ -1,11 +1,13 @@
---------------------
-Task Manager
---------------------
+#Task Manager
 
-#Description
+--------------------
+Description
+--------------------
 This is simple UI task manager interface for smaal teams. It helps in project managament and assigning task among team members.
 
-#How to start
+--------------------
+How to start
+--------------------
 1. Open Terminal
 2. git clone https://github.com/NishiJain91/task-manager.git
 3. Run 'npm install' (make sure you have node intalled in your system)

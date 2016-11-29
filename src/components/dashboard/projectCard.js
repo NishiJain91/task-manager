@@ -1,4 +1,3 @@
-// ./src/car/car.component.jsx
 import React, { Component, PropTypes } from 'react';
 
 const ProjectCard = ({project,onProjectClick}) => (

@@ -1,4 +1,4 @@
-// ./src/car/car.component.jsx
+// ./src/dashboard/dashboard.component.jsx
 import React, { Component, PropTypes } from 'react';
 import ProjectCard from './projectCard.js';
 import Header from '../common/header.js';

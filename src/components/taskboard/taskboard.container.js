@@ -1,4 +1,4 @@
-// ./src/car/car-detail.component.jsx
+// ./src/taskboard/taskboard.container.jsx
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { browserHistory } from 'react-router';
